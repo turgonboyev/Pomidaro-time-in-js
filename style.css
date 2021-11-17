@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: linear-gradient(45deg,#345, #348 ,#367);
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.box{
+  height: 100px;
+}
+input{
+  padding-left: 15%;
+  outline-style: none;
+}
