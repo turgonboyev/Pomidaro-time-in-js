@@ -17,3 +17,9 @@ input{
   padding-left: 15%;
   outline-style: none;
 }
+
+@media (max-width = 600px){
+  .container{
+    display: block;
+  }
+}

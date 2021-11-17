@@ -1,5 +1,12 @@
 window.addEventListener("DOMContentLoaded",() => {
 
+  let width = window.innerWidth,
+    container = document.getElementsByClassName('container');
+
+  if(width < 600){
+    container.classList.remove('d-flex')
+  }
+
   let start = document.querySelector('.start');
 
   start.addEventListener('click', startClick)
@@ -65,7 +72,7 @@ window.addEventListener("DOMContentLoaded",() => {
             second.classList.add('btn-danger')
 
             // Vibration code
-            navigator.vibrate(200);
+            navigator.vibrate(1000);
           } else {
             clocks -= 1
             minutes = 60
